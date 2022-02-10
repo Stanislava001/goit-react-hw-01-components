@@ -1,0 +1,26 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(240, 238, 238);
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: 400px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(100% / 5);
+}

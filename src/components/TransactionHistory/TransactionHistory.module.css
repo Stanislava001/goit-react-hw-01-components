@@ -1,0 +1,18 @@
+.table {
+  width: 500px;
+}
+
+.head {
+  background-color: rgb(106, 106, 240);
+}
+.row {
+  text-align: center;
+}
+
+.row:nth-child(2n) {
+  background-color: rgb(179, 202, 195);
+}
+
+.element {
+  padding: 5px;
+}
